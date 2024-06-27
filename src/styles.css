@@ -39,6 +39,11 @@ body {
     margin: 30px 0;
 }
 
+.card-body {
+    padding: 30px;
+}
+
+
 .card-footer {
     padding: 0 30px 30px;
 }
