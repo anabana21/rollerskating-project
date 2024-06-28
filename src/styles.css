@@ -71,6 +71,20 @@ body {
     text-decoration: none;
 }
 
+.video {
+    margin: 0 auto;
+    aspect-ratio: 21/9;
+    width: 100%;
+}
+
+.video-grid-3-columns {
+    width: 100%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
 section {
     max-width: 1200px;
     margin: 0 auto;
