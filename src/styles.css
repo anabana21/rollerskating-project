@@ -85,13 +85,6 @@ body {
     grid-gap: 10px;
 }
 
-.video-footer {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    
-}
-
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -267,5 +260,9 @@ footer a {
 
     .embed {
         aspect-ratio: 16/9;
+    }
+
+    .video-grid-3-columns {
+        grid-template-columns: 1fr;
     }
   }
